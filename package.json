@@ -1,0 +1,26 @@
+{
+  "name": "@davjhan/web-prototypes",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run dev --workspace=@davjhan/sveltekit",
+    "build": "npm run build --workspace=@davjhan/sveltekit",
+    "deploy": "npm run deploy --workspace=@davjhan/sveltekit",
+    "deploy:dry": "npm run deploy:dry --workspace=@davjhan/sveltekit",
+    "sync": "node create-routes.js"
+  },
+  "author": "David Han",
+  "license": "ISC",
+  "workspaces": [
+    "packages/sveltekit",
+    "packages/broth-components",
+    "packages/broth-utils",
+    "packages/broth-actions",
+    "packages/app",
+    "packages/clients/*"
+  ],
+  "dependencies": {
+    "@neodrag/svelte": "^1.2.3"
+  }
+}

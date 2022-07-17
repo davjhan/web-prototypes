@@ -1,0 +1,23 @@
+{
+  "name": "@davjhan/chicago",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "*.svelte"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@neodrag/svelte": "^1.2.3",
+    "@types/lodash": "^4.14.182",
+    "@types/matter-js": "^0.17.7",
+    "lodash": "^4.17.21",
+    "matter-js": "^0.18.0",
+    "matter-wrap": "^0.2.0",
+    "svelte": "^3.49.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

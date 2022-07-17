@@ -1,0 +1,15 @@
+@import 'broth-base.pcss';
+@import 'broth-components.pcss';
+@import '@davjhan/broth-css/dist/broth-opinionated.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind Full height fix:
+ * https://www.npmjs.com/package/@rvxlab/tailwind-plugin-ios-full-height
+ */
+@supports (-webkit-touch-callout: none) {
+    .h-screen {
+        height: -webkit-fill-available;
+    }
+}

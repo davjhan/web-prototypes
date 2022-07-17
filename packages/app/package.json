@@ -1,0 +1,14 @@
+{
+  "name": "@davjhan/app",
+  "version": "0.0.1",
+  "files": [
+    "routes"
+  ],
+  "dependencies": {
+    "@davjhan/chicago": "*",
+    "@sveltejs/kit": "next",
+    "svelte": "^3.49.0",
+    "@davjhan/design": "^1.0.0"
+  },
+  "type": "module"
+}

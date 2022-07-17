@@ -1,0 +1,14 @@
+{
+  "name": "@davjhan/broth-actions",
+  "version": "1.0.0",
+  "description": "Common Svelte actions",
+  "files": [
+    "*.svelte"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
